@@ -87,17 +87,19 @@ int main()
 	cout<<"input the length:";
 	cin>>n;
 	//a.CreateLinkList(n);
+	cout<<"input the array:"<<endl;
     e=a.CreateLinkList(e,n);
     a.Print(e);
     int m;
 	cout<<"input the insert location:"<<endl;
 	cin>>m;
+	cout<<"input the number:"<<endl;
 	e=a.InsertList(e,m,n);
 	/*int m=20;
 	cin>>m;
 	a.Judge(m);
 	cout<<endl;*/
 	a.Print(e);
-    system("pause");
+    //system("pause");
 	return 0;
 }

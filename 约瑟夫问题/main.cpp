@@ -55,9 +55,9 @@ int main(){
     int n;
     int m;
     int a[30];
-    cout<<"ÇëÊäÈëÈËÊı:"<<endl;
+    cout<<"è¯·è¾“å…¥äººæ•°:"<<endl;
     cin>>n;
-    cout<<"ÇëÊäÈëÃÜÂë³õÖµ£º"<<endl;
+    cout<<"è¯·è¾“å…¥å¯†ç åˆå€¼ï¼š"<<endl;
     cin>>m;
     CreateList(a,n);
     l=LinkList;
